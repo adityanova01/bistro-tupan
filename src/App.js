@@ -4,6 +4,7 @@ import Logo from "./components/brandLogo";
 import Navbar from "./components/navbar";
 import Carousel from "./components/carousel";
 import Jumbotron from "./components/jumbotron";
+import Banner from "./components/banner";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Carousel/>
       <Jumbotron/>
+      <Banner/>
     </div>
   );
 }

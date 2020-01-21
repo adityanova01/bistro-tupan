@@ -20,6 +20,7 @@ body {
 
 .jumbotronImage {
   margin-top: 1%;
+  margin-bottom: 1%;
   background-image: url(./images/jumbotron/jumbotron1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,6 +29,13 @@ body {
 
 .textHighlights {
   background: rgba(44,47,51,0.5);
+}
+
+.banner {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /* ANIMATIONS */

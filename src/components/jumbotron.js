@@ -23,7 +23,7 @@ export default function jumbotron() {
           Tangerang Selatan
         </p>
         <a className="btn btn-light btn-lg" href="#" role="button">
-          Reservation
+          Reservations
         </a>
       </div>
     </div>
