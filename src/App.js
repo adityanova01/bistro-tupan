@@ -3,6 +3,7 @@ import "./App.css";
 import Logo from "./components/brandLogo";
 import Navbar from "./components/navbar";
 import Carousel from "./components/carousel";
+import Jumbotron from "./components/jumbotron";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </div>
       <Navbar/>
       <Carousel/>
+      <Jumbotron/>
     </div>
   );
 }
