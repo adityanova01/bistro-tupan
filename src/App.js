@@ -14,8 +14,8 @@ function App() {
       </div>
       <Navbar/>
       <Carousel/>
-      <Jumbotron/>
       <Banner/>
+      <Jumbotron/>
     </div>
   );
 }

@@ -19,6 +19,15 @@ export default function banner() {
           </div>
         </div>
       </div>
+      <div class="container buttonCustom">
+        <div class="row">
+          <div class="col-xl-12">
+            <button type="button" class="btn btn-secondary btn-lg">
+              Check Our Menus
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
