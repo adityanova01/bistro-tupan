@@ -21,32 +21,35 @@ export default function navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link tracking-in-expand" href="#">
                 Home <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link tracking-in-expand" href="#">
                 About <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link tracking-in-expand" href="#">
                 Menus <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link tracking-in-expand" href="#">
                 Event <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link tracking-in-expand" href="#">
                 Catering <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link tracking-in-expand"
+                href="https://book.chope.co/booking?rid=tutuppanci1806jkt&source=rest_instagram.tutuppanci"
+              >
                 Reservations <span className="sr-only"></span>
               </a>
             </li>

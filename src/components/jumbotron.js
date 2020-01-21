@@ -22,9 +22,10 @@ export default function jumbotron() {
           Address: Boulevard Residence, Blok AH Jl. Anggrek Loka, BSD, Serpong,
           Tangerang Selatan
         </p>
-        <a className="btn btn-light btn-lg" href="#" role="button">
+        <a className="btn btn-light btn-lg" href="https://book.chope.co/booking?rid=tutuppanci1806jkt&source=rest_instagram.tutuppanci" role="button">
           Reservations
         </a>
+      <h6 className='credit'>This webpages are created and developed by Frans Jesky, Impact Byte 2020</h6>
       </div>
     </div>
   );

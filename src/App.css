@@ -44,7 +44,8 @@ body {
   justify-content: center;
 }
 
-body, .parallax {
+body,
+.parallax {
   /* The image used */
   background-image: url("./images/parallax.jpg");
 
@@ -58,7 +59,8 @@ body, .parallax {
   background-size: cover;
 }
 
-.navbar, .parallax {
+.navbar,
+.parallax {
   /* The image used */
   background-image: url("./images/parallax.jpg");
 
@@ -70,6 +72,14 @@ body, .parallax {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.credit {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+  #2c2f33 0px 0px 20px, #2c2f33 0px 0px 30px, #2c2f33 0px 0px 40px,
+  #2c2f33 0px 0px 50px, #2c2f33 0px 0px 75px;
 }
 
 /* ANIMATIONS */
@@ -104,6 +114,38 @@ body, .parallax {
     transform: scale(1.25) translateY(15px);
     -webkit-transform-origin: bottom;
     transform-origin: bottom;
+  }
+}
+/* END OF ANIMATIONS */
+
+/* ANIMATION FOR NAVBAR TEXT */
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /* END OF ANIMATIONS */
