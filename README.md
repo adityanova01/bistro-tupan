@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Tutup Panci Bistro](./assets/images/main-logo.png)
+![Tutup Panci Bistro](./src/images/brandLogoBlack.png)
 # A REPOSITORY FOR TUTUP PANCI BISTRO
 
 **ABOUT THIS REPOSITORY**
@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **This website is currently hosting at Netlify:**
 https://cocky-aryabhata-d5e627.netlify.com/
 
-Current update version: Patch 0.0.12 - Added README.md
+Current update version: Patch 0.1.1b - Corrected errors on README.md
 
 ***
 
