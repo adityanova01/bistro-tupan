@@ -10,12 +10,13 @@ import Parallax from "./components/parallax";
 function App() {
   return (
     <div className="App">
+      <Parallax/>
       <div className="container-fluid">
           <Logo />
       </div>
       <Navbar/>
       <Carousel/>
-      {/* <Parallax/> */}
+      <Parallax/>
       <Banner/>
       <Jumbotron/>
     </div>

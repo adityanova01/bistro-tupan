@@ -58,6 +58,20 @@ body, .parallax {
   background-size: cover;
 }
 
+.navbar, .parallax {
+  /* The image used */
+  background-image: url("./images/parallax.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* ANIMATIONS */
 .kenburns-bottom {
   -webkit-animation: kenburns-bottom 5s ease-out both;
