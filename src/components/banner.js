@@ -9,13 +9,13 @@ export default function banner() {
       <div class="container-fluid">
         <div class="row">
           <div class="col-xl card banner">
-            <img src={firstCard} class="card-img-top" alt="Banner" />
+            <img src={firstCard} class="card-img-top slide-top" alt="Banner" />
           </div>
           <div class="col-xl card banner">
-            <img src={secondCard} class="card-img-top" alt="Banner" />
+            <img src={secondCard} class="card-img-top slide-top" alt="Banner" />
           </div>
           <div class="col-xl card banner">
-            <img src={thirdCard} class="card-img-top" alt="Banner" />
+            <img src={thirdCard} class="card-img-top slide-top" alt="Banner" />
           </div>
         </div>
       </div>
