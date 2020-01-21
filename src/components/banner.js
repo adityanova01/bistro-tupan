@@ -6,15 +6,15 @@ import thirdCard from "../images/cards/card3.png";
 export default function banner() {
   return (
     <div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md card banner">
+          <div class="col-xl card banner">
             <img src={firstCard} class="card-img-top" alt="Banner" />
           </div>
-          <div class="col-md card banner">
+          <div class="col-xl card banner">
             <img src={secondCard} class="card-img-top" alt="Banner" />
           </div>
-          <div class="col-md card banner">
+          <div class="col-xl card banner">
             <img src={thirdCard} class="card-img-top" alt="Banner" />
           </div>
         </div>
