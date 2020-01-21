@@ -27,12 +27,12 @@ body {
 }
 
 .textHighlights {
-  background: rgba(44,47,51,0.5);
+  background: rgba(44, 47, 51, 0.5);
 }
 
 .banner {
-  margin-top: 2%;
-  margin-bottom: 1%;
+  margin-top: 4%;
+  margin-bottom: 3%;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -42,6 +42,20 @@ body {
   margin-bottom: 2%;
   display: flex;
   justify-content: center;
+}
+
+body, .parallax {
+  /* The image used */
+  background-image: url("./images/parallax.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ANIMATIONS */

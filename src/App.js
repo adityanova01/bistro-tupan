@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Carousel from "./components/carousel";
 import Jumbotron from "./components/jumbotron";
 import Banner from "./components/banner";
+import Parallax from "./components/parallax";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </div>
       <Navbar/>
       <Carousel/>
+      {/* <Parallax/> */}
       <Banner/>
       <Jumbotron/>
     </div>
